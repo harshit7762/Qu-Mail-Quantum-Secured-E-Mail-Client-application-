@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# React build dependencies
+build/
+dist/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+venv/
+ENV/
+env/
+.venv/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Credentials & Sensitive Files
+client_secret.json
+kme_keys.json
+token.json
+receiver_dh_private.txt
+receiver_pqc_private.bin
+receiver_pqc_public.bin
+backend/receiver_pqc_private.bin
+backend/receiver_pqc_public.bin
+backend/receiver_dh_private.txt
+backend/token.json
+backend/tokens/
+backend/client_secret.json
+backend/kme_keys.json
+backend/receiver_keys.json
+backend/identity_registry.json
+backend/seen_messages.json
+backend/mail_store.json
+**/client_secret.json
+**/kme_keys.json
+**/token.json
+**/tokens/
+**/*.bin
+**/*.txt
+!README.md
+!package.json
+!**/*.py
+!**/*.jsx
+!**/*.js
+!**/*.css
+!**/*.html
